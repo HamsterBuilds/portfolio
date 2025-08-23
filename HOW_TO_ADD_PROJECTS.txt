@@ -1,0 +1,49 @@
+HOW TO ADD NEW PROJECTS TO YOUR PORTFOLIO
+==========================================
+
+Your portfolio is super easy to update! Just edit the "projects.json" file.
+
+STEP-BY-STEP INSTRUCTIONS:
+1. Open the "projects.json" file
+2. Copy one of the existing project templates
+3. Replace the information with your own:
+   - "title": Your project name
+   - "description": Describe your build (as long as you want)
+   - "thumbnail": URL to your main project image
+   - "images": Array of URLs to all your project images
+
+4. Add a comma after the previous project
+5. Save the file
+6. Refresh your website - new projects appear automatically!
+
+TEMPLATE TO COPY:
+{
+    "title": "Your Project Name Here",
+    "description": "Describe your amazing Roblox build here. Explain what makes it special, what techniques you used, and any cool features it has.",
+    "thumbnail": "https://your-image-url-here.jpg",
+    "type": "own",
+    "images": [
+        "https://your-first-image.jpg",
+        "https://your-second-image.jpg",
+        "https://your-third-image.jpg"
+    ]
+}
+
+PROJECT TYPES:
+- "own" = Shows "Own Project" badge
+- "commission" = Shows "Commission" badge in dark style
+
+WHERE TO UPLOAD IMAGES:
+- Imgur (imgur.com) - free and easy
+- Discord (upload to a server and copy link)
+- GitHub (if you're hosting there)
+- Any image hosting service that gives direct URLs
+
+TIPS:
+- You can have unlimited projects
+- Each project can have unlimited images
+- Make sure image URLs end in .jpg, .png, or .gif
+- Test your images by opening the URLs in a browser first
+- Keep descriptions engaging but not too long for the preview
+
+That's it! Your portfolio will automatically update when you save the file.

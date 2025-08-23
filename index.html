@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamster's portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="protection.js"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="logo">
+                    <h1>Portfolio</h1>
+                </div>
+                <div class="nav-links">
+                    <a href="#home" class="nav-link active">Home</a>
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#products" class="nav-link">Products</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hamster - Roblox Builder</h1>
+                <p class="hero-subtitle">Creating cheap BUT Good builds!</p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number" id="project-count">0</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">1+</span>
+                        <span class="stat-label">Happy Clients</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Explore my latest building projects</p>
+            </div>
+            <div class="projects-grid" id="projects-grid">
+                <!-- Projects will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Modal -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="close-modal">&times;</span>
+            <div class="modal-body">
+                <h3 id="modal-title"></h3>
+                <div class="modal-images" id="modal-images"></div>
+                <p id="modal-description"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Product Modal -->
+    <div id="product-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="close-product-modal">&times;</span>
+            <div class="modal-body">
+                <h3 id="product-modal-title"></h3>
+                <div class="modal-images" id="product-modal-images"></div>
+                <p id="product-modal-description"></p>
+                <div class="product-modal-footer">
+                    <span id="product-modal-price" class="modal-price"></span>
+                    <button id="product-purchase-btn" class="purchase-btn">GET</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Image Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close" id="lightbox-close">&times;</span>
+        <img id="lightbox-img" class="lightbox-img" src="" alt="">
+        <div class="lightbox-nav">
+            <button id="lightbox-prev" class="lightbox-btn">&#8249;</button>
+            <button id="lightbox-next" class="lightbox-btn">&#8250;</button>
+        </div>
+    </div>
+
+    <!-- Products Section -->
+    <section id="products" class="products-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Products & Resources</h2>
+                <p class="section-subtitle">Things I sell and give away for free</p>
+            </div>
+            <div class="products-grid" id="products-grid">
+                <!-- Products will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing-section">
+        <div class="container">
+            <div class="pricing-content">
+                <h2>Commission Pricing</h2>
+                <p>Interested in a custom build? Here's my pricing structure for commissioned projects.</p>
+                <div class="pricing-info">
+                    <h3>Prices (usually)</h3>
+                    <div class="price-range">
+                        <strong>5-20€</strong> or <strong>200-2000 Robux</strong>
+                    </div>
+                    <span class="per-project">per project</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Customer Reviews</h2>
+                <p class="section-subtitle">What my clients say></p>
+            </div>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">"Amazing builder! Created exactly what I envisioned for my game. Very professional and delivered on time."</p>
+                    <div class="review-author">
+                        <strong>Alex M.</strong>
+                        <span>?</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-content">
+                <h2>Let's Work Together</h2>
+                <p>Ready to bring your vision to life in Roblox? Get in touch!</p>
+                <div class="contact-links">
+                    <a href="#" class="contact-btn">Discord</a>
+                    <a href="#" class="contact-btn">Twitter</a>
+                    <a href="#" class="contact-btn">Roblox</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

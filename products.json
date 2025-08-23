@@ -1,0 +1,28 @@
+[
+    {
+        "name": "COMING SOON!",
+        "description": "COMING SOON!",
+        "image": "https://i.imgur.com/s8IUK86.png",
+        "price": 0,
+        "detailedDescription": "COMING SOON!",
+       "images": [
+            "https://i.imgur.com/s8IUK86.png",
+            "https://i.imgur.com/s8IUK86.png",
+            "https://i.imgur.com/s8IUK86.png"
+        ],
+        "purchaseLink": "https://example.com/basic-building-kit"
+    },
+    {
+        "name": "COMING SOON!",
+        "description": "COMING SOON!",
+        "image": "https://i.imgur.com/s8IUK86.png",
+        "price": 1,
+        "detailedDescription": "COMING SOON!",
+        "images": [
+            "https://i.imgur.com/s8IUK86.png",
+            "https://i.imgur.com/s8IUK86.png",
+            "https://i.imgur.com/s8IUK86.png"
+        ],
+        "purchaseLink": "https://example.com/premium-assets-pack"
+    }
+]
