@@ -1,6 +1,6 @@
 [
     {
-        "name": "StudFruits asset pack",
+        "name": "StudFruits Asset pack",
         "description": "First Asset pack i have ever released!",
         "image": "https://i.imgur.com/2SJeO0M.png",
         "price": 0,
@@ -11,16 +11,15 @@
         "purchaseLink": "https://hamsterbuilds.itch.io/stud-fruits"
     },
     {
-        "name": "COMING SOON!",
-        "description": "COMING SOON!",
-        "image": "https://i.imgur.com/s8IUK86.png",
+        "name": "Camper Life Asset pack",
+        "description": "Need a van? Heres a van! (also a few other things for your scene)",
+        "image": "https://i.imgur.com/eb8Ov7e.png",
         "price": 1,
-        "detailedDescription": "COMING SOON!",
+        "detailedDescription": "Need a van? Heres a van! (also a few other things for your scene)",
         "images": [
-            "https://i.imgur.com/s8IUK86.png",
-            "https://i.imgur.com/s8IUK86.png",
+            "https://i.imgur.com/eb8Ov7e.png",
             "https://i.imgur.com/s8IUK86.png"
         ],
-        "purchaseLink": ""
+        "purchaseLink": "https://hamsterbuilds.itch.io/camper-life"
     }
 ]
