@@ -1,14 +1,12 @@
 [
     {
-        "name": "test!",
-        "description": "COMING SOON!",
-        "image": "https://i.imgur.com/s8IUK86.png",
+        "name": "StudFruits asset pack",
+        "description": "First Asset pack i have ever released!",
+        "image": "https://i.imgur.com/2SJeO0M.png",
         "price": 0,
-        "detailedDescription": "StudFruits",
+        "detailedDescription": "This asset pack is the first i have ever released. And its FREE!",
        "images": [
-            "https://i.imgur.com/s8IUK86.png",
-            "https://i.imgur.com/s8IUK86.png",
-            "https://i.imgur.com/s8IUK86.png"
+            "https://i.imgur.com/2SJeO0M.png"
         ],
         "purchaseLink": "https://hamsterbuilds.itch.io/stud-fruits"
     },
@@ -23,6 +21,6 @@
             "https://i.imgur.com/s8IUK86.png",
             "https://i.imgur.com/s8IUK86.png"
         ],
-        "purchaseLink": "https://example.com/premium-assets-pack"
+        "purchaseLink": ""
     }
 ]
