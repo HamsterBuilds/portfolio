@@ -2,12 +2,23 @@
     {
         "name": "Stud Caves Asset-Pack",
         "description": "This Asset-Pack contains over 10 good-quality assets for your games!",
-        "image": "",
+        "image": "https://i.imgur.com/denvjpe.png",
         "price": 0,
         "detailedDescription": "This Asset-Pack contains over 10 good-quality assets for your games! These assets are made by Hamsterbuilds and may not be resold. Credit for the assets must be given!",
        "images": [
             "https://i.imgur.com/denvjpe.png"
         ],
         "purchaseLink": "https://hamsterbuilds.itch.io/stud-caves"
+    },
+        {
+        "name": "Coming Soon!",
+        "description": "Coming Soon!",
+        "image": "",
+        "price": 0,
+        "detailedDescription": "",
+       "images": [
+            ""
+        ],
+        "purchaseLink": ""
     }
 ]
