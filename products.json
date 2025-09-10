@@ -11,15 +11,15 @@
         "purchaseLink": ""
     },
     {
-        "name": "Camper Life Asset pack",
-        "description": "Need a van? Heres a van! (also a few other things for your scene)",
-        "image": "https://i.imgur.com/eb8Ov7e.png",
+        "name": "",
+        "description": "",
+        "image": "",
         "price": 0,
-        "detailedDescription": "Need a van? Heres a van! (also a few other things for your scene)",
+        "detailedDescription": "",
         "images": [
-            "https://i.imgur.com/eb8Ov7e.png",
-            "https://i.imgur.com/s8IUK86.png"
+            "",
+            ""
         ],
-        "purchaseLink": "https://hamsterbuilds.itch.io/camper-life"
+        "purchaseLink": ""
     }
 ]
