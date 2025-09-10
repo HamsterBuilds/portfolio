@@ -1,14 +1,14 @@
 [
     {
-        "name": "StudFruits Asset pack",
-        "description": "First Asset pack i have ever released!",
-        "image": "https://i.imgur.com/2SJeO0M.png",
+        "name": "Coming Soon!",
+        "description": "Coming Soon!",
+        "image": "",
         "price": 0,
-        "detailedDescription": "This asset pack is the first i have ever released. And its FREE!",
+        "detailedDescription": "",
        "images": [
-            "https://i.imgur.com/2SJeO0M.png"
+            ""
         ],
-        "purchaseLink": "https://hamsterbuilds.itch.io/stud-fruits"
+        "purchaseLink": ""
     },
     {
         "name": "Camper Life Asset pack",
