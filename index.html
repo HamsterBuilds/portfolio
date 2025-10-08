@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamster's portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="protection.js"></script>
+</head>
+<body>
+    <!-- Maintenance Mode Overlay -->
+    <div id="maintenance-overlay" class="maintenance-overlay" style="display: none;">
+        <div class="maintenance-content">
+            <img id="maintenance-image" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 200 200'%3E%3Ctext x='50%25' y='50%25' font-size='100' text-anchor='middle' dy='.3em'%3E🔧%3C/text%3E%3C/svg%3E" alt="Maintenance" class="maintenance-img">
+            <h1 class="maintenance-title">We are sorry, website is currently under maintenance</h1>
+        </div>
+    </div>
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="logo">
+                    <h1>Portfolio</h1>
+                </div>
+                <div class="nav-links">
+                    <a href="#home" class="nav-link active">Home</a>
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#products" class="nav-link">Products</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <!-- Social Proof Badges -->
+            <div class="social-proof">
+                <div class="badges-scroll" id="badges-container">
+                    <!-- Badges will be loaded from settings.json -->
+                </div>
+            </div>
+            
+            <div class="hero-content">
+                <h1 class="hero-title">Hamster - Roblox Builder</h1>
+                <p class="hero-subtitle">Creating cheap BUT Good builds!</p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">A LOT</span>
+                        <span class="stat-label">of Projects</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">7+</span>
+                        <span class="stat-label">Happy Clients</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Explore my latest building projects</p>
+            </div>
+            <div class="projects-grid" id="projects-grid">
+                <!-- Projects will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Modal -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="close-modal">&times;</span>
+            <div class="modal-body">
+                <h3 id="modal-title"></h3>
+                <div class="modal-images" id="modal-images"></div>
+                <p id="modal-description"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Product Modal -->
+    <div id="product-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="close-product-modal">&times;</span>
+            <div class="modal-body">
+                <h3 id="product-modal-title"></h3>
+                <div class="modal-images" id="product-modal-images"></div>
+                <p id="product-modal-description"></p>
+                <div class="product-modal-footer">
+                    <span id="product-modal-price" class="modal-price"></span>
+                    <button id="product-purchase-btn" class="purchase-btn">GET</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Image Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close" id="lightbox-close">&times;</span>
+        <img id="lightbox-img" class="lightbox-img" src="" alt="">
+        <div class="lightbox-nav">
+            <button id="lightbox-prev" class="lightbox-btn">&#8249;</button>
+            <button id="lightbox-next" class="lightbox-btn">&#8250;</button>
+        </div>
+    </div>
+
+    <!-- Products Section -->
+    <section id="products" class="products-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Products & Resources</h2>
+                <p class="section-subtitle">Things I sell and give away for free</p>
+            </div>
+            <div class="products-grid" id="products-grid">
+                <!-- Products will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing-section">
+        <div class="container">
+            <div class="pricing-content">
+                <h2>Commission Pricing</h2>
+                <p>Interested in a custom build? Here's my pricing structure for commissioned projects.</p>
+                <div class="pricing-info">
+                    <h3>Prices (usually)</h3>
+                    <div class="price-range">
+                        <strong>5-20€</strong> or <strong>200-2000 Robux</strong>
+                    </div>
+                    <span class="per-project">per project</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section with Slider -->
+    <section class="reviews-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Customer Reviews</h2>
+                <p class="section-subtitle">What my clients say</p>
+            </div>
+            <div class="reviews-slider-container">
+                <div class="reviews-slider" id="reviews-slider">
+                    <!-- Reviews will be loaded from settings.json -->
+                </div>
+                <div class="slider-dots" id="slider-dots"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-subtitle">Everything you need to know</p>
+            </div>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How long does a typical build take?</h3>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>I finish most commissions in a day, because i really care about my customers. If its a bigger commission it may 3-5 days.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What payment methods do you accept?</h3>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>I accept both EUR (€) and Robux. Prices typically range from 5-20€ or 200-2000 Robux per project, as i dont like to charge high prices :D</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you offer revisions?</h3>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Most of the time, yes! If i am unable to offer revisions, then the commission will automatically be cancelled or ended. (you get to decide) :</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Can I see examples of your work?</h3>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely! Check out my Featured Projects section above to see my recent work, including commissioned builds and personal projects.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How do I get started?</h3>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Simply contact me through Discord or Twitter! Links are down below!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-content">
+                <h2>Let's Work Together</h2>
+                <p>Get in touch!</p>
+                <div class="contact-links">
+                    <button id="discord-btn" class="contact-btn">Discord</button>
+                    <a href="https://x.com/ruutlid40017?t=NuaU8-dSSYRdj3OqyEd_fA&s=09" target="_blank" class="contact-btn">Twitter</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Discord Popup Modal -->
+    <div id="discord-modal" class="discord-modal">
+        <div class="discord-modal-content">
+            <span class="discord-close" id="discord-close">&times;</span>
+            <h2>Add me on Discord</h2>
+            <div class="discord-steps">
+                <div class="discord-step">
+                    <div class="step-number">1</div>
+                    <div class="step-text">Open Discord</div>
+                </div>
+                <div class="discord-step">
+                    <div class="step-number">2</div>
+                    <div class="step-text">Click on "Add Friend"</div>
+                </div>
+                <div class="discord-step">
+                    <div class="step-number">3</div>
+                    <div class="step-text">Enter this username:</div>
+                </div>
+                <div class="discord-username">
+                    <code id="discord-user">hamstritudruk</code>
+                    <button id="copy-discord" class="copy-btn">Copy</button>
+                </div>
+                <div class="discord-step">
+                    <div class="step-number">4</div>
+                    <div class="step-text">Send friend request!</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+[
+    {
+        "name": "Stud Caves Asset-Pack",
+        "description": "This Asset-Pack contains over 10 good-quality assets for your games!",
+        "image": "https://i.imgur.com/denvjpe.png",
+        "price": 0,
+        "detailedDescription": "This Asset-Pack contains over 10 good-quality assets for your games! These assets are made by Hamsterbuilds and may not be resold. Credit for the assets must be given!",
+       "images": [
+            "https://i.imgur.com/denvjpe.png"
+        ],
+        "purchaseLink": "https://hamsterbuilds.itch.io/stud-caves"
+    },
+        {
+        "name": "Coming Soon!",
+        "description": "More products coming soon! Stay tuned for exciting new releases.",
+        "image": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='200' viewBox='0 0 300 200'%3E%3Crect fill='%23f8fafb' width='300' height='200'/%3E%3Ctext x='50%25' y='50%25' font-size='60' text-anchor='middle' dy='.3em'%3E🔜%3C/text%3E%3C/svg%3E",
+        "price": 0,
+        "detailedDescription": "We're working on new exciting products! Check back soon for updates.",
+       "images": [
+            "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='200' viewBox='0 0 300 200'%3E%3Crect fill='%23f8fafb' width='300' height='200'/%3E%3Ctext x='50%25' y='50%25' font-size='60' text-anchor='middle' dy='.3em'%3E🔜%3C/text%3E%3C/svg%3E"
+        ],
+        "purchaseLink": ""
+    }
+]
