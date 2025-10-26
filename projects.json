@@ -24,6 +24,17 @@
         ]
     },
     {
+        "title": "Bank necessities",
+        "description": "Why does a bank need eyes tho? Suspicious.",
+        "thumbnail": "https://i.imgur.com/y6ZwTYw.png",
+        "type": "project",
+        "style": "studs",
+        "price": "200 robux",
+        "images": [
+            "https://i.imgur.com/y6ZwTYw.png"
+        ]
+    },
+    {
         "title": "Warehouse with a tank",
         "description": "Why did the tank come through the wall?",
         "thumbnail": "https://i.imgur.com/vEsieKI.png",
