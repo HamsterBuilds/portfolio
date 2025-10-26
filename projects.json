@@ -13,6 +13,17 @@
         ]
     },
     {
+        "title": "Beach and such",
+        "description": "The duck stares into my soul.",
+        "thumbnail": "https://i.imgur.com/iC9RSK9.png",
+        "type": "commission",
+        "style": "studs",
+        "price": "600 robux",
+        "images": [
+            "https://i.imgur.com/iC9RSK9.png"
+        ]
+    },
+    {
         "title": "Construction props",
         "description": "Every builders dream",
         "thumbnail": "https://i.imgur.com/oT8wXyU.png",
@@ -29,7 +40,7 @@
         "thumbnail": "https://i.imgur.com/y6ZwTYw.png",
         "type": "project",
         "style": "studs",
-        "price": "200 robux",
+        "price": "250 robux",
         "images": [
             "https://i.imgur.com/y6ZwTYw.png"
         ]
