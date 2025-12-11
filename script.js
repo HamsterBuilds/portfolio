@@ -174,19 +174,6 @@ class PortfolioApp {
     loadProjects() {
         this.projects = [
             {
-                "title": "Some veichles",
-                "description": "Made some vehicles.",
-                "thumbnail": "https://i.imgur.com/w8jNNpK.png",
-                "type": "commission",
-                "style": "studs",
-                "price": "300 robux",
-                "images": [
-                    "https://i.imgur.com/iCyxrVA.png",
-                    "https://i.imgur.com/bE9kt4H.png",
-                    "https://i.imgur.com/3brDjzx.png"
-                ]
-            },
-            {
                 "title": "Beach and such",
                 "description": "The duck stares into my soul.",
                 "thumbnail": "https://i.imgur.com/iC9RSK9.png",
@@ -217,17 +204,6 @@ class PortfolioApp {
                 "price": "1000 robux",
                 "images": [
                     "https://i.imgur.com/oT8wXyU.png"
-                ]
-            },
-            {
-                "title": "Bank necessities",
-                "description": "Why does a bank need eyes tho? Suspicious.",
-                "thumbnail": "https://i.imgur.com/y6ZwTYw.png",
-                "type": "project",
-                "style": "studs",
-                "price": "250 robux",
-                "images": [
-                    "https://i.imgur.com/y6ZwTYw.png"
                 ]
             },
             {
